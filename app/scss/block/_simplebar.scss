@@ -1,0 +1,21 @@
+.simplebar-track.simplebar-vertical {	
+	background: var(--light-gray);
+	border-radius: 2px;
+	width: 4px;
+
+}
+.simplebar-scrollbar::before {
+	background: var(--gold);
+	opacity: 1;
+	width: 4px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 2px;
+
+}
+.simplebar-scrollbar.simplebar-visible::before {
+	opacity: 1;
+}
+

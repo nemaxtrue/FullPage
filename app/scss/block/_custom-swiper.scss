@@ -1,0 +1,37 @@
+.swiper-wrapper {
+	height: 100vh;
+}
+
+.swiper-pagination {
+	position: static;
+	overflow: hidden;
+	background: var(--light-gray);
+}
+
+.swiper-pagination-bullets {
+	transform: none !important;
+	border-radius: 10px !important;
+}
+
+.swiper-pagination-bullet {
+	border-radius: 0;
+	opacity: 1;
+	margin: 0 !important;
+	height: 42px;
+	width: 4px;
+	background: var(--light-gray);
+}
+
+.swiper-pagination-bullet-active {
+	background: var(--gold);
+	border-radius: 2px;
+}
+
+.swiper-button-next {
+	position: static;
+	height: auto;
+}
+.swiper-button-next::after {
+	display: none;
+}
+

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FullPage</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"/> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		
+	</style>
+</head>
+<body class="page">
+	<header class="header page__header">
+		<div class="header__inner">
+			<nav class="header-nav">
+				<div class="container">
+					<ul class="header-nav__list">
+						<li class="header-nav__item active" data-anchor="home">
+							<a href="#" class="header-nav__link">Home</a>
+						</li>
+						<li class="header-nav__item" data-anchor="styleHair">
+							<a href="#" class="header-nav__link">Style Hair</a>
+						</li>
+						<li class="header-nav__item" data-anchor="models">
+							<a href="#" class="header-nav__link">Models</a>
+						</li>
+						<li class="header-nav__item" data-anchor="shop">
+							<a href="#" class="header-nav__link">Shop</a>
+						</li>
+						<li class="header-nav__item" data-anchor="contact">
+							<a href="#" class="header-nav__link">Contact</a>
+						</li>
+						<li class="header-nav__item" data-anchor="cart">
+							<a href="#" class="header-nav__link">
+								<svg width="26" height="28" viewBox="0 0 26 28" xmlns="http://www.w3.org/2000/svg">
+									<path d="M19 11H16V10C16 8.93913 15.5786 7.92172 14.8284 7.17157C14.0783 6.42143 13.0609 6 12 6C10.9391 6 9.92172 6.42143 9.17157 7.17157C8.42143 7.92172 8 8.93913 8 10V11H5C4.73478 11 4.48043 11.1054 4.29289 11.2929C4.10536 11.4804 4 11.7348 4 12V23C4 23.7956 4.31607 24.5587 4.87868 25.1213C5.44129 25.6839 6.20435 26 7 26H17C17.7956 26 18.5587 25.6839 19.1213 25.1213C19.6839 24.5587 20 23.7956 20 23V12C20 11.7348 19.8946 11.4804 19.7071 11.2929C19.5196 11.1054 19.2652 11 19 11ZM10 10C10 9.46957 10.2107 8.96086 10.5858 8.58579C10.9609 8.21071 11.4696 8 12 8C12.5304 8 13.0391 8.21071 13.4142 8.58579C13.7893 8.96086 14 9.46957 14 10V11H10V10ZM18 23C18 23.2652 17.8946 23.5196 17.7071 23.7071C17.5196 23.8946 17.2652 24 17 24H7C6.73478 24 6.48043 23.8946 6.29289 23.7071C6.10536 23.5196 6 23.2652 6 23V13H8V14C8 14.2652 8.10536 14.5196 8.29289 14.7071C8.48043 14.8946 8.73478 15 9 15C9.26522 15 9.51957 14.8946 9.70711 14.7071C9.89464 14.5196 10 14.2652 10 14V13H14V14C14 14.2652 14.1054 14.5196 14.2929 14.7071C14.4804 14.8946 14.7348 15 15 15C15.2652 15 15.5196 14.8946 15.7071 14.7071C15.8946 14.5196 16 14.2652 16 14V13H18V23Z"/>
+									<circle cx="21" cy="5" r="5"/>
+									<path d="M20.9 2.818C20.92 2.806 20.95 2.8 20.99 2.8H21.716C21.736 2.8 21.752 2.808 21.764 2.824C21.78 2.836 21.788 2.852 21.788 2.872V6.928C21.788 6.948 21.78 6.966 21.764 6.982C21.752 6.994 21.736 7 21.716 7H21.014C20.994 7 20.976 6.994 20.96 6.982C20.948 6.966 20.942 6.948 20.942 6.928V3.64C20.942 3.632 20.938 3.624 20.93 3.616C20.922 3.608 20.914 3.606 20.906 3.61L20.312 3.772L20.288 3.778C20.252 3.778 20.234 3.756 20.234 3.712L20.216 3.196C20.216 3.156 20.234 3.128 20.27 3.112L20.9 2.818Z" fill="white"/>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<nav class="nav-left">
+			<div class="nav-left__logo">Kasmir</div>
+			<div class="nav-left__center">
+				<div class="nav-left__current-slide"></div>
+				<div class="nav-left__pagination">
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="nav-left__total-slide"></div>
+			</div>
+			<div class="nav-left__button-next swiper-button-next">
+				<img src="img/button-next.svg" alt="">
+			</div>
+		</nav>
+		<section class="hero">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div id="home" class="swiper-slide">
+						<div class="hero__wrapper">
+							<div class="container">
+								<div class="hero__inner">
+									<div class="hero__item">
+										<img class="hero__img" src="img/hero.png" alt="">
+										<div class="hero__img-text">The Best Hair Style 2021</div>
+									</div>
+									<div class="hero-info hero__item">
+										<h4 class="hero-info__title">Lorem ipsum dolor sit amet!</h4>
+										<div class="hero-info__description" data-simplebar>
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui cumque ea nihil nobis distinctio sint nesciunt aspernatur dicta magnam earum, consectetur dolor quos ipsa beatae, ad culpa asperiores. Facere ullam temporibus assumenda ea non optio omnis modi, eum aspernatur </p>
+										</div>
+										<a href="" class="hero-info__btn-shop">Shopping Now</a>
+									</div>
+									<div class="hero-social hero__item">
+										<ul class="hero-social__list">
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">facebook</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">instagram</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">twitter</a>
+											</li>
+										</ul>
+									</div>
+									<div class="hero-current-slide hero__item">01</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="styleHair" class="swiper-slide">
+						<div class="hero__wrapper">
+							<div class="container">
+								<div class="hero__inner">
+									<div class="hero__item">
+										<img class="hero__img" src="img/hero.png" alt="">
+										<div class="hero__img-text">The Best Hair Style 2021</div>
+									</div>
+									<div class="hero-info hero__item">
+										<h4 class="hero-info__title">Lorem ipsum!</h4>
+										<div class="hero-info__description" data-simplebar>
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada 	tellus diam sapien platea.
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.
+											</p>
+										</div>
+										<a href="" class="hero-info__btn-shop">Shopping Now</a>
+									</div>
+									<div class="hero-social hero__item">
+										<ul class="hero-social__list">
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">facebook</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">instagram</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">twitter</a>
+											</li>
+										</ul>
+									</div>
+									<div class="hero-current-slide hero__item">02</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="models" class="swiper-slide">
+						<div class="hero__wrapper">
+							<div class="container">
+								<div class="hero__inner">
+									<div class="hero__item">
+										<img class="hero__img" src="img/hero.png" alt="">
+										<div class="hero__img-text">The Best Hair Style 2021</div>
+									</div>
+									<div class="hero-info hero__item">
+										<h4 class="hero-info__title">Lorem ipsum!</h4>
+										<div class="hero-info__description" data-simplebar>
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui cumque ea nihil nobis distinctio sint nesciunt aspernatur dicta magnam earum, consectetur dolor quos ipsa beatae, ad culpa asperiores. Facere ullam temporibus assumenda ea non optio omnis modi, eum aspernatur dolore, beatae cum. Ea veritatis tenetur eveniet, consequatur? Aliquam quidem eum provident sit deserunt. Nisi accusantium fuga, animi possimus porro. Vitae sequi quibusdam eum distinctio, recusandae aut deserunt quam, animi. Nesciunt libero repellat aut minima optio quis, obcaecati adipisci beatae dolorum earum ullam. Molestiae vitae nulla fugit corporis fugiat quia nesciunt amet, eaque voluptate corrupti accusantium at aut dolor tempore cum perspiciatis quos, voluptas in laboriosam. Modi, non corporis, quidem velit debitis placeat reprehenderit, quis, architecto facere quibusdam sunt et mollitia consequuntur facilis. Amet eaque dicta totam, corrupti saepe quam voluptate minima consequuntur? Voluptates sequi sit quos incidunt assumenda nostrum, praesentium. Cupiditate odio, rem quia temporibus quis sit magnam sequi natus cumque a nostrum aspernatur hic ipsam, similique, doloribus inventore nisi illum. Possimus voluptate voluptas omnis architecto explicabo ex, magni, nulla dolor. Accusantium impedit sit, dicta facere eligendi quasi quia similique nihil sequi suscipit molestiae, non nesciunt dolorum maxime harum molestias aperiam distinctio modi. Quisquam deserunt, reiciendis! Corrupti praesentium repellat consequatur, labore ipsum. Totam aut sint, similique at cupiditate est alias vitae magnam doloremque quisquam deserunt quidem quis, voluptates, dolor aliquam, odio voluptatum pariatur impedit facere aspernatur aliquid sequi amet. Dignissimos qui, ducimus, adipisci, vero laudantium nam, sint unde reprehenderit blanditiis exercitationem expedita aliquid. Eum consequatur explicabo quae saepe ducimus quo suscipit. Ipsa nihil aperiam, fugit unde accusantium sapiente quis asperiores, sequi optio itaque maxime rem reiciendis! Reprehenderit dignissimos minima vero numquam, tempora totam libero architecto, cupiditate, quae a hic blanditiis velit neque! Eaque voluptate aliquid quisquam tempore laborum molestiae recusandae aut, consequuntur amet quas incidunt accusantium ea voluptatibus, atque.</p>
+										</div>
+										<a href="" class="hero-info__btn-shop">Shopping Now</a>
+									</div>
+									<div class="hero-social hero__item">
+										<ul class="hero-social__list">
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">facebook</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">instagram</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">twitter</a>
+											</li>
+										</ul>
+									</div>
+									<div class="hero-current-slide hero__item">03</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="shop" class="swiper-slide">
+						<div class="hero__wrapper">
+							<div class="container">
+								<div class="hero__inner">
+									<div class="hero__item">
+										<img class="hero__img" src="img/hero.png" alt="">
+										<div class="hero__img-text">The Best Hair Style 2021</div>
+									</div>
+									<div class="hero-info hero__item">
+										<h4 class="hero-info__title">Lorem ipsum!</h4>
+										<div class="hero-info__description" data-simplebar>
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui cumque ea nihil nobis distinctio sint nesciunt aspernatur dicta magnam earum, consectetur dolor quos ipsa beatae, ad culpa asperiores. Facere ullam temporibus assumenda ea non optio omnis modi, eum aspernatur dolore, beatae cum. Ea veritatis tenetur eveniet, consequatur? Aliquam quidem eum provident sit deserunt. Nisi accusantium fuga, animi possimus porro. Vitae sequi quibusdam eum distinctio, recusandae aut deserunt quam, animi. Nesciunt libero repellat aut minima optio quis, obcaecati adipisci beatae dolorum earum ullam. Molestiae vitae nulla fugit corporis fugiat quia nesciunt amet, eaque voluptate corrupti accusantium at aut dolor tempore cum perspiciatis quos, voluptas in laboriosam. Modi, non corporis, quidem velit debitis placeat reprehenderit, quis, architecto facere quibusdam sunt et mollitia consequuntur facilis. Amet eaque dicta totam, corrupti saepe quam voluptate minima consequuntur? Voluptates sequi sit quos incidunt assumenda nostrum, praesentium. Cupiditate odio, rem quia temporibus quis sit magnam sequi natus cumque a nostrum aspernatur hic ipsam, similique, doloribus inventore nisi illum. Possimus voluptate voluptas omnis architecto explicabo ex, magni, nulla dolor. Accusantium impedit sit, dicta facere eligendi quasi quia similique nihil sequi suscipit molestiae, non nesciunt dolorum maxime harum molestias aperiam distinctio modi. Quisquam deserunt, reiciendis! Corrupti praesentium repellat consequatur, labore ipsum. Totam aut sint, similique at cupiditate est alias vitae magnam doloremque quisquam deserunt quidem quis, voluptates, dolor aliquam, odio voluptatum pariatur impedit facere aspernatur aliquid sequi amet. Dignissimos qui, ducimus, adipisci, vero laudantium nam, sint unde reprehenderit blanditiis exercitationem expedita aliquid. Eum consequatur explicabo quae saepe ducimus quo suscipit. Ipsa nihil aperiam, fugit unde accusantium sapiente quis asperiores, sequi optio itaque maxime rem reiciendis! Reprehenderit dignissimos minima vero numquam, tempora totam libero architecto, cupiditate, quae a hic blanditiis velit neque! Eaque voluptate aliquid quisquam tempore laborum molestiae recusandae aut, consequuntur amet quas incidunt accusantium ea voluptatibus, atque.</p>
+										</div>
+										<a href="" class="hero-info__btn-shop">Shopping Now</a>
+									</div>
+									<div class="hero-social hero__item">
+										<ul class="hero-social__list">
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">facebook</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">instagram</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">twitter</a>
+											</li>
+										</ul>
+									</div>
+									<div class="hero-current-slide hero__item">04</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="contact" class="swiper-slide">
+						<div class="hero__wrapper">
+							<div class="container">
+								<div class="hero__inner">
+									<div class="hero__item">
+										<img class="hero__img" src="img/hero.png" alt="">
+										<div class="hero__img-text">The Best Hair Style 2021</div>
+									</div>
+									<div class="hero-info hero__item">
+										<h4 class="hero-info__title">Lorem ipsum!</h4>
+										<div class="hero-info__description" data-simplebar>
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui cumque ea nihil nobis distinctio sint nesciunt aspernatur dicta magnam earum, consectetur dolor quos ipsa beatae, ad culpa asperiores. Facere ullam temporibus assumenda ea non optio omnis modi, eum aspernatur dolore, beatae cum. Ea veritatis tenetur eveniet, consequatur? Aliquam quidem eum provident sit deserunt. Nisi accusantium fuga, animi possimus porro. Vitae sequi quibusdam eum distinctio, recusandae aut deserunt quam, animi. Nesciunt libero repellat aut minima optio quis, obcaecati adipisci beatae dolorum earum ullam. Molestiae vitae nulla fugit corporis fugiat quia nesciunt amet, eaque voluptate corrupti accusantium at aut dolor tempore cum perspiciatis quos, voluptas in laboriosam. Modi, non corporis, quidem velit debitis placeat reprehenderit, quis, architecto facere quibusdam sunt et mollitia consequuntur facilis. Amet eaque dicta totam, corrupti saepe quam voluptate minima consequuntur? Voluptates sequi sit quos incidunt assumenda nostrum, praesentium. Cupiditate odio, rem quia temporibus quis sit magnam sequi natus cumque a nostrum aspernatur hic ipsam, similique, doloribus inventore nisi illum. Possimus voluptate voluptas omnis architecto explicabo ex, magni, nulla dolor. Accusantium impedit sit, dicta facere eligendi quasi quia similique nihil sequi suscipit molestiae, non nesciunt dolorum maxime harum molestias aperiam distinctio modi. Quisquam deserunt, reiciendis! Corrupti praesentium repellat consequatur, labore ipsum. Totam aut sint, similique at cupiditate est alias vitae magnam doloremque quisquam deserunt quidem quis, voluptates, dolor aliquam, odio voluptatum pariatur impedit facere aspernatur aliquid sequi amet. Dignissimos qui, ducimus, adipisci, vero laudantium nam, sint unde reprehenderit blanditiis exercitationem expedita aliquid. Eum consequatur explicabo quae saepe ducimus quo suscipit. Ipsa nihil aperiam, fugit unde accusantium sapiente quis asperiores, sequi optio itaque maxime rem reiciendis! Reprehenderit dignissimos minima vero numquam, tempora totam libero architecto, cupiditate, quae a hic blanditiis velit neque! Eaque voluptate aliquid quisquam tempore laborum molestiae recusandae aut, consequuntur amet quas incidunt accusantium ea voluptatibus, atque.</p>
+										</div>
+										<a href="" class="hero-info__btn-shop">Shopping Now</a>
+									</div>
+									<div class="hero-social hero__item">
+										<ul class="hero-social__list">
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">facebook</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">instagram</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">twitter</a>
+											</li>
+										</ul>
+									</div>
+									<div class="hero-current-slide hero__item">05</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="cart" class="swiper-slide">
+						<div class="hero__wrapper">
+							<div class="container">
+								<div class="hero__inner">
+									<div class="hero__item">
+										<img class="hero__img" src="img/hero.png" alt="">
+										<div class="hero__img-text">The Best Hair Style 2021</div>
+									</div>
+									<div class="hero-info hero__item">
+										<h4 class="hero-info__title">Lorem ipsum!</h4>
+										<div class="hero-info__description" data-simplebar>
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui cumque ea nihil nobis distinctio sint nesciunt aspernatur dicta magnam earum, consectetur dolor quos ipsa beatae, ad culpa asperiores. Facere ullam temporibus assumenda ea non optio omnis modi, eum aspernatur dolore, beatae cum. Ea veritatis tenetur eveniet, consequatur? Aliquam quidem eum provident sit deserunt. Nisi accusantium fuga, animi possimus porro. Vitae sequi quibusdam eum distinctio, recusandae aut deserunt quam, animi. Nesciunt libero repellat aut minima optio quis, obcaecati adipisci beatae dolorum earum ullam. Molestiae vitae nulla fugit corporis fugiat quia nesciunt amet, eaque voluptate corrupti accusantium at aut dolor tempore cum perspiciatis quos, voluptas in laboriosam. Modi, non corporis, quidem velit debitis placeat reprehenderit, quis, architecto facere quibusdam sunt et mollitia consequuntur facilis. Amet eaque dicta totam, corrupti saepe quam voluptate minima consequuntur? Voluptates sequi sit quos incidunt assumenda nostrum, praesentium. Cupiditate odio, rem quia temporibus quis sit magnam sequi natus cumque a nostrum aspernatur hic ipsam, similique, doloribus inventore nisi illum. Possimus voluptate voluptas omnis architecto explicabo ex, magni, nulla dolor. Accusantium impedit sit, dicta facere eligendi quasi quia similique nihil sequi suscipit molestiae, non nesciunt dolorum maxime harum molestias aperiam distinctio modi. Quisquam deserunt, reiciendis! Corrupti praesentium repellat consequatur, labore ipsum. Totam aut sint, similique at cupiditate est alias vitae magnam doloremque quisquam deserunt quidem quis, voluptates, dolor aliquam, odio voluptatum pariatur impedit facere aspernatur aliquid sequi amet. Dignissimos qui, ducimus, adipisci, vero laudantium nam, sint unde reprehenderit blanditiis exercitationem expedita aliquid. Eum consequatur explicabo quae saepe ducimus quo suscipit. Ipsa nihil aperiam, fugit unde accusantium sapiente quis asperiores, sequi optio itaque maxime rem reiciendis! Reprehenderit dignissimos minima vero numquam, tempora totam libero architecto, cupiditate, quae a hic blanditiis velit neque! Eaque voluptate aliquid quisquam tempore laborum molestiae recusandae aut, consequuntur amet quas incidunt accusantium ea voluptatibus, atque.</p>
+										</div>
+										<a href="" class="hero-info__btn-shop">Shopping Now</a>
+									</div>
+									<div class="hero-social hero__item">
+										<ul class="hero-social__list">
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">facebook</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">instagram</a>
+											</li>
+											<li class="hero-social__item">
+												<a href="#" class="hero-social__link">twitter</a>
+											</li>
+										</ul>
+									</div>
+									<div class="hero-current-slide hero__item">06</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

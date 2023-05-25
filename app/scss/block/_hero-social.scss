@@ -1,0 +1,16 @@
+.hero-social {
+	&__list {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		text-transform: uppercase;
+		display: flex;
+		grid-gap: 94px;
+	}
+	&__link {
+		transition: 0.1s;
+	}
+	&__link:hover {
+		color: var(--gold);
+	}
+}

@@ -1,0 +1,32 @@
+.nav-left {
+	padding: 57px 0 100px 0;
+	position: relative;
+	width: 294px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-right: 2px solid var(--light-gray);
+	user-select: none;
+	&__logo {
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	&__center {
+		text-align: center;
+	}
+	&__current-slide,
+	&__total-slide {
+		font-weight: 500;
+		font-size: 54px;
+		line-height: 65px;
+		color: var(--gold);
+	}
+	&__pagination {
+		margin: 15px 0;
+		display: flex;
+		justify-content: center;
+	}
+}

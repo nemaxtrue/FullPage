@@ -1,0 +1,25 @@
+.header-nav {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	user-select: none;
+	&__list {
+		display: flex;
+		gap: 0 60px;
+		text-align: center;
+		justify-content: flex-end;
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+	}
+	&__item:last-child {
+		margin-left: 40px;
+	}
+	&__item.active {
+		color: var(--gold);
+	}
+	&__item.active svg {
+		fill: var(--gold);
+	}
+}
